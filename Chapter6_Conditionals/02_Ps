@@ -1,0 +1,13 @@
+a=int(input("Enter first numeber: "))
+b=int(input("Enter second numeber: "))
+c=int(input("Enter third numeber: "))
+d=int(input("Enter fourth numeber: "))
+
+if(a>b and a>c and a>d):
+    print("The largest number is: ",a)
+elif(b>a and b>c and b>d):
+    print("The largest number is: ",b)
+elif(c>a and c>b and c>d):
+    print("The largest number is: ",c)
+else:
+    print("The largest number is: ",d)
